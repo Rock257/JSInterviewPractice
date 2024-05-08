@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Input</title>
+  </head>
+  <body>
+    <div class="practice">
+      <h1>
+        Write a JavaScript program to calculate multiplication and division of
+        two numbers (input from the user)
+      </h1>
+      <div class="calculate">
+        <div class="main">
+          <form action="">
+            <label for="">First Number</label>
+            <input type="text" placeholder="please enter number" id="firstNumber" />
+            <br />
+            <br />
+            <label for="">Second Number</label>
+            <input type="text" placeholder="please enter number" id="secondNumber"/>
+
+            <!-- button for   -->
+            <input type="button" value="multiply" onclick="multiply()">
+            <input type="button" value="divide" onclick="divide()">
+          </form>
+        </div>
+        <div id="result" style="color: black; font-size: 2rem; background-color: rgb(115, 115, 128); align-items: center;">
+            <h1><span id="results"></span></h1>
+        </div>
+      </div>
+    </div>
+    <script src="/p3/script.js"></script>
+  </body>
+</html>

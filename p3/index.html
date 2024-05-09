@@ -8,28 +8,71 @@
   <body>
     <div class="practice">
       <h1>
-        Write a JavaScript program to calculate multiplication and division of
-        two numbers (input from the user)
+        P1 - Write a JavaScript program to calculate multiplication and division
+        of two numbers (input from the user)
       </h1>
       <div class="calculate">
         <div class="main">
           <form action="">
             <label for="">First Number</label>
-            <input type="text" placeholder="please enter number" id="firstNumber" />
+            <input
+              type="text"
+              placeholder="please enter number"
+              id="firstNumber"
+            />
             <br />
             <br />
             <label for="">Second Number</label>
-            <input type="text" placeholder="please enter number" id="secondNumber"/>
+            <input
+              type="text"
+              placeholder="please enter number"
+              id="secondNumber"
+            />
 
             <!-- button for   -->
-            <input type="button" value="multiply" onclick="multiply()">
-            <input type="button" value="divide" onclick="divide()">
+            <input type="button" value="multiply" onclick="multiply()" />
+            <input type="button" value="divide" onclick="divide()" />
           </form>
         </div>
-        <div id="result" style="color: black; font-size: 2rem; background-color: rgb(115, 115, 128); align-items: center;">
-            <h1><span id="results"></span></h1>
+        <div
+          id="result"
+          style="
+            color: black;
+            font-size: 2rem;
+            background-color: rgb(115, 115, 128);
+            align-items: center;
+          "
+        >
+          <h1><span id="results"></span></h1>
         </div>
       </div>
+      <h1>
+        P-2 Write a JavaScript program to get the difference between a given
+        number and 13, if the number is broader than 13 return double the
+        absolute difference.
+      </h1>
+      <label for="">Enter a Number</label>
+      <input type="text" placeholder="placeholder enter a num" id="userNum" />
+      <input type="button" onclick="getDiff()" value="Get Difference" />
+      <br />
+      <div
+        id="showNum"
+        style="
+          color: black;
+          font-size: 2rem;
+          background-color: rgb(115, 115, 128);
+          align-items: center;
+        "
+      ></div>
+      <h1>
+        p-3 Write a JavaScript program to compute the sum of the two given
+        integers. If the two values are the same, then return triple their sum.
+      </h1>
+      <div >
+        <button onclick="sum(15,15)">Calculate Sum</button>
+        <h1 id="sum"></h1>
+      </div>
+      
     </div>
     <script src="/p3/script.js"></script>
   </body>
